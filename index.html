@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>noorQuotes - Islamic Inspirational Quotes</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
+    <link rel="manifest" href="site.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
@@ -221,14 +226,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 500px;
+            height: 600px;
             margin-top: 8rem;
         }
 
         .app-image-card {
             position: absolute;
-            width: 225px;
-            height: 500px;
+            width: 270px;
+            height: 600px;
             border-radius: 30px;
             box-shadow: 0 15px 35px rgba(0,0,0,0.2);
             overflow: hidden;
@@ -248,43 +253,43 @@
 
         .card-1 {
             z-index: 1;
-            transform: rotate(-15deg) translateX(-150px) translateY(-30px);
+            transform: rotate(-15deg) translateX(-180px) translateY(-36px);
             animation: floatCard1 6s ease-in-out infinite;
-            margin-left: -150px;
+            margin-left: -180px;
         }
 
         .card-2 {
             z-index: 3;
-            transform: rotate(0deg) translateX(0px) translateY(-20px);
+            transform: rotate(0deg) translateX(0px) translateY(-24px);
             animation: floatCard2 6s ease-in-out infinite;
-            margin-top: -100px;
+            margin-top: -120px;
         }
 
         .card-3 {
             z-index: 2;
-            transform: rotate(15deg) translateX(150px) translateY(-30px);
+            transform: rotate(15deg) translateX(180px) translateY(-36px);
             animation: floatCard3 6s ease-in-out infinite;
-            margin-left: 150px;
+            margin-left: 180px;
         }
 
         @keyframes floatCard1 {
-            0%, 100% { transform: rotate(-3deg) translateX(-37.5px) translateY(-3px); }
-            50% { transform: rotate(-3deg) translateX(-37.5px) translateY(2px); }
+            0%, 100% { transform: rotate(-3deg) translateX(-45px) translateY(-3.6px); }
+            50% { transform: rotate(-3deg) translateX(-45px) translateY(2.4px); }
         }
 
         @keyframes floatCard2 {
-            0%, 100% { transform: rotate(1deg) translateX(0px) translateY(2px); }
-            50% { transform: rotate(1deg) translateX(0px) translateY(-3px); }
+            0%, 100% { transform: rotate(1deg) translateX(0px) translateY(2.4px); }
+            50% { transform: rotate(1deg) translateX(0px) translateY(-3.6px); }
         }
 
         @keyframes floatCard3 {
-            0%, 100% { transform: rotate(3deg) translateX(37.5px) translateY(-2px); }
-            50% { transform: rotate(3deg) translateX(37.5px) translateY(3px); }
+            0%, 100% { transform: rotate(3deg) translateX(45px) translateY(-2.4px); }
+            50% { transform: rotate(3deg) translateX(45px) translateY(3.6px); }
         }
 
         .features {
             background: rgba(255,255,255,1);
-            margin: -150px 0 50px;
+            margin: -160px 0 50px;
             backdrop-filter: blur(10px);
             width: 100%;
             max-width: none;
@@ -591,27 +596,28 @@
 
             .app-images {
                 margin-top: 4rem;
-                height: 350px;
+                height: 420px;
             }
 
             .app-image-card {
-                width: 158px;
-                height: 350px;
+                max-width: 140px;
+                width: 140px;
+                height: 420px;
             }
 
             .card-1 {
-                transform: rotate(-5deg) translateX(-50px) translateY(-5px);
-                margin-bottom: -100px;
+                transform: rotate(-5deg) translateX(-60px) translateY(-6px);
+                margin-bottom: -120px;
             }
 
             .card-2 {
-                transform: rotate(2deg) translateX(0px) translateY(3px);
-                margin-bottom: -100px;
+                transform: rotate(2deg) translateX(0px) translateY(3.6px);
+                margin-bottom: -120px;
             }
 
             .card-3 {
-                transform: rotate(5deg) translateX(50px) translateY(-3px);
-                margin-bottom: -100px;
+                transform: rotate(5deg) translateX(60px) translateY(-3.6px);
+                margin-bottom: -120px;
             }
 
             .nav-links {
@@ -696,26 +702,27 @@
 
             .app-images {
                 margin-top: 3rem;
-                height: 300px;
+                height: 360px;
             }
 
             .app-image-card {
-                width: 135px;
-                height: 300px;
+                max-width: 120px;
+                width: 120px;
+                height: 360px;
             }
 
             .card-1 {
-                transform: rotate(-3deg) translateX(-42px) translateY(-3px);
+                transform: rotate(-3deg) translateX(-50px) translateY(-3.6px);
                 margin-top: 0;
             }
 
             .card-2 {
-                transform: rotate(1deg) translateX(0px) translateY(2px);
-                margin-top: -60px;
+                transform: rotate(1deg) translateX(0px) translateY(2.4px);
+                margin-top: -72px;
             }
 
             .card-3 {
-                transform: rotate(3deg) translateX(42px) translateY(-2px);
+                transform: rotate(3deg) translateX(50px) translateY(-2.4px);
                 margin-top: 0;
             }
 
@@ -769,38 +776,38 @@
         /* iPad and tablet styles (1024px width) */
         @media (min-width: 1024px) and (max-width: 1366px) {
             .features {
-                margin: -150px 0 50px;
+                margin: -160px 0 50px;
                 z-index: 20;
                 position: relative;
             }
 
             .app-images {
                 margin-top: 6rem;
-                height: 450px;
+                height: 540px;
                 z-index: 1;
                 position: relative;
             }
 
             .app-image-card {
-                width: 203px;
-                height: 450px;
+                width: 244px;
+                height: 540px;
                 z-index: 1;
                 position: absolute;
             }
 
             .card-1 {
-                transform: rotate(-12deg) translateX(-68px) translateY(-20px);
+                transform: rotate(-12deg) translateX(-82px) translateY(-24px);
                 z-index: 1;
             }
 
             .card-2 {
-                transform: rotate(0deg) translateX(0px) translateY(-15px);
-                margin-top: -80px;
+                transform: rotate(0deg) translateX(0px) translateY(-18px);
+                margin-top: -96px;
                 z-index: 2;
             }
 
             .card-3 {
-                transform: rotate(12deg) translateX(68px) translateY(-20px);
+                transform: rotate(12deg) translateX(82px) translateY(-24px);
                 z-index: 1;
             }
         }
@@ -857,24 +864,25 @@
 
             .app-images {
                 margin-top: 2.5rem;
-                height: 280px;
+                height: 336px;
             }
 
             .app-image-card {
-                width: 126px;
-                height: 280px;
+                max-width: 110px;
+                width: 110px;
+                height: 336px;
             }
 
             .card-1 {
-                transform: rotate(-2deg) translateX(-19px) translateY(-2px);
+                transform: rotate(-2deg) translateX(-23px) translateY(-2.4px);
             }
 
             .card-2 {
-                transform: rotate(0.5deg) translateX(3px) translateY(1px);
+                transform: rotate(0.5deg) translateX(4px) translateY(1.2px);
             }
 
             .card-3 {
-                transform: rotate(2deg) translateX(19px) translateY(-1px);
+                transform: rotate(2deg) translateX(23px) translateY(-1.2px);
             }
 
             .features {
