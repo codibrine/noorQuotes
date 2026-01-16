@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - noorQuotes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #F0E6D2 0%, #D6D1BE 100%);
+            color: #333333;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+        .policy-section { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        h1 { color: #2A6A55; border-bottom: 2px solid #D4AF37; padding-bottom: 10px; }
+        h2 { color: #2A6A55; font-size: 1.2em; margin-top: 20px; }
+        hr { border: 0; height: 1px; background: #eee; margin: 20px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 5px; }
+        .rtl { direction: rtl; font-family: 'Arial', sans-serif; }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(42, 106, 85, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 1rem 0;
+            transition: all 0.3s ease;
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo img {
+            height: 36px;
+            width: auto;
+        }
+
+        .language-switcher {
+            position: relative;
+        }
+
+        .lang-btn {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 25px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .lang-btn:hover {
+            background: rgba(255,255,255,0.2);
+            border-color: rgba(255,255,255,0.5);
+        }
+
+        .lang-btn i {
+            font-size: 1rem;
+        }
+
+        .lang-dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            min-width: 140px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            z-index: 1001;
+        }
+
+        .lang-dropdown.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .lang-option {
+            display: block;
+            padding: 12px 16px;
+            color: #333;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.2s ease;
+            border-radius: 8px;
+            margin: 2px;
+        }
+
+        .lang-option:hover {
+            background: #f8f9fa;
+            color: #2A6A55;
+        }
+
+        .lang-option:first-child {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+        }
+
+        section {
+            padding: 120px 20px 80px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .policy-section {
+            display: none;
+        }
+
+        .policy-section.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo_foreground.png" alt="noorQuotes Logo">
+            noorQuotes
+        </div>
+        <div class="language-switcher">
+            <button id="lang-btn" class="lang-btn">
+                <i class="fas fa-globe"></i>
+                <span id="current-lang">EN</span>
+            </button>
+            <div class="lang-dropdown" id="lang-dropdown">
+                <a href="javascript:void(0);" data-lang="ar" class="lang-option">العربية</a>
+                <a href="javascript:void(0);" data-lang="en" class="lang-option">English</a>
+                <a href="javascript:void(0);" data-lang="es" class="lang-option">Español</a>
+                <a href="javascript:void(0);" data-lang="fr" class="lang-option">Français</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section>
+
+    <div class="policy-section active" data-lang="en">
+        <h1>Privacy Policy</h1>
+        <p><strong>Last Updated:</strong> January 16, 2026</p>
+
+        <h2>1. Overview</h2>
+        <p><strong>noorQuotes</strong> ("the App") is committed to protecting your privacy. We do not collect, store, or share any personally identifiable information (PII) such as your name, email address, or phone number.</p>
+
+        <h2>2. Usage Data (Analytics)</h2>
+        <p>To improve your experience, we use Google Firebase Analytics to collect anonymous information about how the App is used. This includes:</p>
+        <ul>
+            <li>Popularity of specific quote categories or topics.</li>
+            <li>Total number of quotes shared or downloaded.</li>
+            <li>Aggregated data on quotes added to favorites.</li>
+        </ul>
+        <p>This information is purely statistical and cannot be linked back to you personally.</p>
+
+        <h2>3. Legal Basis (GDPR)</h2>
+        <p>Data is processed based on our legitimate interest in improving the App's content and functionality under the EU General Data Protection Regulation.</p>
+
+        <h2>4. Data Security</h2>
+        <p>Usage statistics are managed by Google. We do not maintain private servers to store your personal data.</p>
+
+        <h2>5. Your Choices</h2>
+        <p>You can prevent the collection of usage data at any time by adjusting the privacy settings on your device or by uninstalling the App.</p>
+
+        <hr>
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at: <br>
+            <a href="mailto:noorQuotesApp@gmail.com?subject=noorQuotes:%20Privacy%20Policy" style="color: #2A6A55; font-weight: 600;">noorQuotesApp@gmail.com</a></p>
+    </div>
+
+    <div class="policy-section" data-lang="es">
+        <h1>Política de Privacidad</h1>
+        <p><strong>Última actualización:</strong> 16 de enero de 2026</p>
+
+        <h2>1. Resumen</h2>
+        <p><strong>noorQuotes</strong> está comprometida con tu privacidad. No recopilamos, almacenamos ni compartimos ninguna información de identificación personal, como tu nombre, correo electrónico o número de teléfono.</p>
+
+        <h2>2. Datos de Uso (Analítica)</h2>
+        <p>Para mejorar tu experiencia, utilizamos Google Firebase Analytics para recopilar información anónima sobre el uso de la aplicación. Esto incluye:</p>
+        <ul>
+            <li>Popularidad de categorías o temas específicos.</li>
+            <li>Número total de citas compartidas o descargadas.</li>
+            <li>Datos agregados sobre citas añadidas a favoritos.</li>
+        </ul>
+        <p>Esta información es puramente estadística y no puede vincularse a ti de forma personal.</p>
+
+        <h2>3. Base Legal (RGPD)</h2>
+        <p>Los datos se procesan en base a nuestro interés legítimo por mejorar la funcionalidad de la Aplicación conforme al Reglamento General de Protección de Datos de la UE.</p>
+
+        <h2>4. Seguridad de los Datos</h2>
+        <p>Las estadísticas de uso son gestionadas por Google. No disponemos de servidores privados para almacenar tus datos personales.</p>
+
+        <h2>5. Tus Opciones</h2>
+        <p>Puedes evitar la recopilación de datos ajustando la configuración de privacidad de tu dispositivo móvil o desinstalando la aplicación.</p>
+
+        <hr>
+        <h2>6. Contacto</h2>
+        <p>Si tienes alguna pregunta sobre esta Política de Privacidad, puedes contactarnos en: <br>
+            <a href="mailto:noorQuotesApp@gmail.com?subject=noorQuotes:%20Privacy%20Policy" style="color: #2A6A55; font-weight: 600;">noorQuotesApp@gmail.com</a></p>
+    </div>
+
+    <div class="policy-section" data-lang="fr">
+        <h1>Politique de Confidentialité</h1>
+        <p><strong>Dernière mise à jour :</strong> 16 janvier 2026</p>
+
+        <h2>1. Aperçu</h2>
+        <p><strong>noorQuotes</strong> s'engage à protéger votre vie privée. Nous ne collectons, ne stockons ni ne partageons aucune information personnellement identifiable (nom, e-mail ou téléphone).</p>
+
+        <h2>2. Données d'utilisation</h2>
+        <p>Nous utilisons Google Firebase Analytics pour collecter des informations anonymes sur l'utilisation. Cela comprend :</p>
+        <ul>
+            <li>La popularité des catégories ou thèmes de citations.</li>
+            <li>Le nombre total de citations partagées ou téléchargées.</li>
+            <li>Données agrégées sur les citations ajoutées aux favoris.</li>
+        </ul>
+
+        <h2>3. Base légale (RGPD)</h2>
+        <p>Nous traitons ces données sur la base de notre intérêt légitime à améliorer la qualité et le contenu de l'application.</p>
+
+        <h2>4. Vos droits</h2>
+        <p>Vous pouvez désactiver la collecte de données via les paramètres de votre appareil ou en désinstallant l'application.</p>
+
+        <hr>
+        <h2>5. Contact</h2>
+        <p>Pour toute question concernant cette politique, veuillez nous contacter à l'adresse suivante : <br>
+            <a href="mailto:noorQuotesApp@gmail.com?subject=noorQuotes:%20Privacy%20Policy" style="color: #2A6A55; font-weight: 600;">noorQuotesApp@gmail.com</a></p>
+    </div>
+
+    <div class="policy-section rtl" data-lang="ar">
+        <h1>سياسة الخصوصية</h1>
+        <p><strong>آخر تحديث:</strong> ١٦ يناير ٢٠٢٦</p>
+
+        <h2>١. نظرة عامة</h2>
+        <p>يلتزم تطبيق <strong>noorQuotes</strong> بحماية خصوصيتك. نحن لا نجمع أو نخزن أو نشارك أي معلومات تعريف شخصية مثل اسمك أو بريدك الإلكتروني.</p>
+
+        <h2>٢. بيانات الاستخدام</h2>
+        <p>نستخدم Google Firebase Analytics لجمع معلومات مجهولة المصدر حول كيفية استخدام التطبيق. ويشمل ذلك:</p>
+        <ul>
+            <li>شعبية فئات أو مواضيع محددة للاقتباسات.</li>
+            <li>إجمالي عدد الاقتباسات التي تمت مشاركتها أو تنزيلها.</li>
+            <li>بيانات مجمعة حول الاقتباسات المضافة إلى المفضلة.</li>
+        </ul>
+
+        <h2>٣. الأساس القانوني (GDPR)</h2>
+        <p>نقوم بمعالجة هذه البيانات بناءً على مصلحتنا المشروعة في تحسين جودة التطبيق لجميع المستخدمين وفقاً للمتطلبات القانونية.</p>
+
+        <h2>٤. خياراتك</h2>
+        <p>يمكنك منع جمع البيانات في أي وقت من خلال ضبط إعدادات الخصوصية في جهازك أو عن طريق إلغاء تثبيت التطبيق.</p>
+
+        <hr>
+        <h2>٥. اتصل بنا</h2>
+        <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى التواصل معنا عبر: <br>
+            <a href="mailto:noorQuotesApp@gmail.com?subject=noorQuotes:%20Privacy%20Policy" style="color: #2A6A55; font-weight: 600;">noorQuotesApp@gmail.com</a></p>
+    </div>
+
+</section>
+
+<script>
+    // Current language
+    let currentLang = localStorage.getItem('noorQuotes-lang') || 'en';
+
+    // Language switcher functionality
+    const langBtn = document.getElementById('lang-btn');
+    const langDropdown = document.getElementById('lang-dropdown');
+    const currentLangSpan = document.getElementById('current-lang');
+
+    // Toggle dropdown
+    langBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        langDropdown.classList.toggle('show');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!langBtn.contains(e.target)) {
+            langDropdown.classList.remove('show');
+        }
+    });
+
+    // Language selection
+    document.querySelectorAll('.lang-option').forEach(option => {
+        option.addEventListener('click', function(e) {
+            e.preventDefault();
+            const lang = this.getAttribute('data-lang');
+            switchLanguage(lang);
+            langDropdown.classList.remove('show');
+        });
+    });
+
+    // Switch language function
+    function switchLanguage(lang) {
+        currentLang = lang;
+        localStorage.setItem('noorQuotes-lang', lang);
+
+        // Update current language indicator
+        const langCodes = { ar: 'AR', en: 'EN', es: 'ES', fr: 'FR' };
+        currentLangSpan.textContent = langCodes[lang];
+
+        // Update document language
+        document.documentElement.lang = lang;
+
+        // Update text direction for Arabic
+        document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+
+        // Show the selected policy section
+        document.querySelectorAll('.policy-section').forEach(section => {
+            section.classList.remove('active');
+        });
+        document.querySelector(`.policy-section[data-lang="${lang}"]`).classList.add('active');
+    }
+
+    // Initialize language on page load
+    switchLanguage(currentLang);
+</script>
+
+</body>
+</html>
