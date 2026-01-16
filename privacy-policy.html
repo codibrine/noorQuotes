@@ -55,6 +55,16 @@
             display: flex;
             align-items: center;
             gap: 10px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .logo:hover {
+            color: #D4AF37;
+        }
+
+        .logo img:hover {
+            opacity: 0.8;
         }
 
         .logo img {
@@ -150,10 +160,10 @@
 
 <nav>
     <div class="container">
-        <div class="logo">
+        <a href="/" class="logo">
             <img src="img/logo_foreground.png" alt="noorQuotes Logo">
             noorQuotes
-        </div>
+        </a>
         <div class="language-switcher">
             <button id="lang-btn" class="lang-btn">
                 <i class="fas fa-globe"></i>

@@ -59,6 +59,16 @@
             display: flex;
             align-items: center;
             gap: 10px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .logo:hover {
+            color: #D4AF37;
+        }
+
+        .logo img:hover {
+            opacity: 0.8;
         }
 
         .logo img {
@@ -944,10 +954,10 @@
 <body>
     <nav>
         <div class="container">
-            <div class="logo">
+            <a href="/" class="logo">
                 <img src="img/logo_foreground.png" alt="noorQuotes Logo">
                 noorQuotes
-            </div>
+            </a>
             <ul class="nav-links">
                 <li><a href="#home" data-i18n="nav.home">Home</a></li>
                 <li><a href="#features" data-i18n="nav.features">Features</a></li>
@@ -1171,6 +1181,8 @@
                 </a>
             </div>
         </div>
+        <hr style="border: none; border-top: 1px solid rgba(255,255,255,0.2); margin: 20px auto; max-width: 800px;">
+        <p style="text-align: center;"><a href="privacy-policy.html" style="color: #D4AF37; text-decoration: none;" data-i18n="footer.privacy_policy">Privacy Policy</a></p>
     </footer>
 
     <script>
@@ -1486,6 +1498,7 @@
                 "download.subtitle": "قم بتحميل noorQuotes الآن ودع الحكمة الإلهية تضيء حياتك اليومية.",
                 "download.btn": "تحميل من Google Play",
                 "footer.rights": "جميع الحقوق محفوظة",
+                "footer.privacy_policy": "سياسة الخصوصية",
                 "bmc.message": "السلام عليكم 👋 ادعم هذا المشروع لنتمكن من مواصلة مشاركة حكمة القرآن. شكراً لكرمك!",
                 "bmc.description": "ادعمني على Buy me a coffee!",
                 "footer.ai_notice": "تم تطوير هذا الموقع بدعم من الذكاء الاصطناعي في الترجمة والصياغة. إذا وجدت أي خطأ في النصوص، يرجى مساعدتنا في التحسين عبر التواصل معنا على:"
@@ -1535,6 +1548,7 @@
                 "download.subtitle": "Download noorQuotes now and let divine wisdom illuminate your daily life.",
                 "download.btn": "Download from Google Play",
                 "footer.rights": "All rights reserved",
+                "footer.privacy_policy": "Privacy Policy",
                 "bmc.message": "Assalamu 'alaykum 👋 Support this project so we can continue sharing the wisdom of the Quran. Thank you for your generosity!",
 
                 "footer.ai_notice": "This site was developed with the assistance of AI for translation and copywriting. If you find any inaccuracies in the text, please help us improve by reporting them to:"
@@ -1585,6 +1599,7 @@
                 "download.subtitle": "Descarga noorQuotes ahora y deja que la sabiduría divina ilumine tu vida diaria.",
                 "download.btn": "Descargar de Google Play",
                 "footer.rights": "Todos los derechos reservados",
+                "footer.privacy_policy": "Política de Privacidad",
                 "bmc.message": "Assalamu 'alaykum 👋 Apoya este proyecto para que podamos seguir compartiendo la sabiduría del Corán. ¡Gracias por tu generosidad!",
                 "bmc.description": "Apóyame en Buy me a coffee!",
                 "footer.ai_notice": "Este sitio ha sido desarrollado con el apoyo de inteligencia artificial para la traducción y redacción. Si encuentras alguna imprecisión en los textos, por favor ayúdanos a mejorar informando a:"
@@ -1634,6 +1649,7 @@
                 "download.subtitle": "Téléchargez noorQuotes maintenant et laissez la sagesse divine illuminer votre vie quotidienne.",
                 "download.btn": "Télécharger sur Google Play",
                 "footer.rights": "Tous droits réservés",
+                "footer.privacy_policy": "Politique de Confidentialité",
                 "bmc.message": "Assalamu 'alaykum 👋 Soutenez ce projet pour que nous puissions continuer à partager la sagesse du Coran. Merci pour votre générosité !",
                 "bmc.description": "Soutenez-moi sur Buy me a coffee!",
                 "footer.ai_notice": "Ce site a été développé avec l'aide de l'intelligence artificielle pour la traduction et la rédaction. Si vous constatez des inexactitudes, merci de nous aider à nous améliorer en contactant :"
