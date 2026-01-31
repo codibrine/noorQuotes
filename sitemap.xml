@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- English (Default) -->
+    <url>
+        <loc>https://noorquotes.com/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://noorquotes.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://noorquotes.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://noorquotes.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://noorquotes.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://noorquotes.com/"/>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Spanish -->
+    <url>
+        <loc>https://noorquotes.com/es/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://noorquotes.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://noorquotes.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://noorquotes.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://noorquotes.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://noorquotes.com/"/>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- French -->
+    <url>
+        <loc>https://noorquotes.com/fr/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://noorquotes.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://noorquotes.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://noorquotes.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://noorquotes.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://noorquotes.com/"/>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Arabic -->
+    <url>
+        <loc>https://noorquotes.com/ar/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://noorquotes.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://noorquotes.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://noorquotes.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://noorquotes.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://noorquotes.com/"/>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Privacy Policy -->
+    <url>
+        <loc>https://noorquotes.com/privacy-policy.html</loc>
+        <priority>0.3</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+</urlset>
